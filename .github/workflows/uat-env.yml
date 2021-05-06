@@ -52,3 +52,4 @@ jobs:
     steps:
       - name: Acceptance Test
         run: curl http://bookinfo.uat.opsta.net/student40/ratings/health | grep "Ratings is working"
+        
